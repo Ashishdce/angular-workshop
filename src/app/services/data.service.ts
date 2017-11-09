@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 @Injectable()
 export class DataService {
   // private server = 'http://localhost:5000/pwa-demo-25ad5/us-central1/pwaServer';
-  private server = 'https://us-central1-pwa-demo-25ad5.cloudfunctions.net/pwaServer/posts ';
+  private server = 'https://us-central1-pwa-demo-25ad5.cloudfunctions.net/pwaServer';
   $loader = new BehaviorSubject<any>(false);
   constructor(private http: HttpClient) {}
 
