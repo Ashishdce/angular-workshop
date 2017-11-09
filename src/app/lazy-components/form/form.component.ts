@@ -19,7 +19,6 @@ export class FormComponent implements OnInit {
       posted: new Date()
     };
     this.service.setData(postObj).then(res => {
-      console.log(res);
       this.service.setLoader(false);
     }).catch(err => {
       console.log(err.message);

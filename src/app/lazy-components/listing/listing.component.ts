@@ -22,7 +22,6 @@ export class ListingComponent implements OnInit {
     this.service.getData().then(res => {
       this.posts = res;
       this.keys = Object.keys(this.posts).reverse();
-      console.log(this.posts);
       this.service.setLoader(false);
     }).catch(err => {
       this.service.setLoader(false);

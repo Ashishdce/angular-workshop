@@ -6,7 +6,7 @@
         <div class="form has-padding">
             <textarea rows="5" name="text" placeholder="Enter what you feel..." #content></textarea>
             <input type="text" placeholder="Name" #name>
-            <button class="post" [ngClass]="{'disable': content.value}" (click)="post(content.value, name.value)">Post</button>
+            <button class="post" (click)="post(content.value, name.value)">Post</button>
         </div>
     </div>
 </section>
