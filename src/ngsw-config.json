@@ -1,0 +1,56 @@
+{
+    "index": "/index.html",
+    "appData": {
+        "name": "Angular5Post",
+        "description": "Status app"
+    },
+    "assetGroups": [{
+        "name": "app",
+        "installMode": "prefetch",
+        "resources": {
+            "files": [
+                "/favicon.ico",
+                "/index.html",
+                "/Roboto-Regular.ttf"
+            ],
+            "versionedFiles": [
+                "/*.bundle.css",
+                "/*.bundle.js"
+            ]
+        }
+    }, {
+        "name": "assets",
+        "installMode": "lazy",
+        "updateMode": "prefetch",
+        "resources": {
+            "files": [
+                "/assets/**",
+                "/*.chunk.js"
+            ]
+        }
+    }],
+    "dataGroups": [{
+            "name": "api-freshness",
+            "urls": [
+                "/allposts"
+            ],
+            "cacheConfig": {
+                "strategy": "freshness",
+                "maxSize": 100,
+                "maxAge": "3600s",
+                "timeout": "10s"
+            }
+        },
+        {
+            "name": "api-performance",
+            "urls": [
+                "/post"
+            ],
+            "cacheConfig": {
+                "strategy": "performance",
+                "maxSize": 100,
+                "maxAge": "3d"
+            }
+        }
+    ]
+}

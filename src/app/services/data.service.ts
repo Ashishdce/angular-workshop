@@ -22,5 +22,4 @@ export class DataService {
   setLoader(val: boolean) {
     this.$loader.next(val);
   }
-
 }
