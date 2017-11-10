@@ -10,7 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
     .then(() => {
-      registerServiceWorker('sw-default');
+      registerServiceWorker('sw');
     })
     .catch(err => console.log(err));
 
