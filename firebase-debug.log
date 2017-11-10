@@ -1,0 +1,36 @@
+[debug] [2017-11-10T17:42:11.294Z] ----------------------------------------------------------------------
+[debug] [2017-11-10T17:42:11.299Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only hosting,functions
+[debug] [2017-11-10T17:42:11.300Z] CLI Version:   3.14.0
+[debug] [2017-11-10T17:42:11.300Z] Platform:      darwin
+[debug] [2017-11-10T17:42:11.300Z] Node Version:  v6.11.1
+[debug] [2017-11-10T17:42:11.301Z] Time:          Fri Nov 10 2017 23:12:11 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:11.301Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-10T17:42:11.338Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-10T17:42:11.339Z] > authorizing via signed-in user
+[debug] [2017-11-10T17:42:11.344Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/jsfoo-angular-pwa  
+ Fri Nov 10 2017 23:12:11 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:12.703Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T17:42:12.705Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/jsfoo-angular-pwa/tokens  
+ Fri Nov 10 2017 23:12:12 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:13.894Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/vrufu1/git-play/angular-workshop'...
+[info] 
+[warn] ⚠  functions: Cannot start emulator. Error: Module version mismatch. Expected 48, got 51.
+[debug] [2017-11-10T17:42:14.828Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jsfoo-angular-pwa  
+ Fri Nov 10 2017 23:12:14 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:16.247Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T17:42:16.248Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/963156481488/clients/_:getWebAppConfig  
+ Fri Nov 10 2017 23:12:16 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:17.524Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-11-10T17:42:17.587Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jsfoo-angular-pwa  
+ Fri Nov 10 2017 23:12:17 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:18.887Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T17:42:18.888Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/963156481488/clients/_:getWebAppConfig  
+ Fri Nov 10 2017 23:12:18 GMT+0530 (IST)
+[debug] [2017-11-10T17:42:19.626Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: functions/dist
+[info] ✔  hosting: Local server: http://localhost:5004
+
