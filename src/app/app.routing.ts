@@ -1,24 +1,24 @@
-import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   {
-    path: "allposts",
-    loadChildren: "./lazy-components/listing/listing.module#ListingModule"
+    path: '/',
+    loadChildren: './lazy-components/listing/listing.module#ListingModule'
   },
   {
-    path: "post",
-    loadChildren: "./lazy-components/form/form.module#FormModule"
+    path: 'post',
+    loadChildren: './lazy-components/form/form.module#FormModule'
   },
   {
-    path: "",
-    redirectTo: "allposts",
-    pathMatch: "full"
+    path: '',
+    redirectTo: 'allposts',
+    pathMatch: 'full'
   },
   {
-    path: "**",
-    redirectTo: "allposts",
-    pathMatch: "full"
+    path: '**',
+    redirectTo: 'allposts',
+    pathMatch: 'full'
   }
 ];
 
