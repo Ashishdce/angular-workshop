@@ -1,0 +1,28 @@
+{
+    "name": "Angular5Post",
+    "short_name": "ng5Post",
+    "theme_color": "#9c27b0",
+    "background_color": "#9c27b0",
+    "display": "fullscreen",
+    "icons": [{
+            "src": "assets/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image\/png"
+        },
+        {
+            "src": "assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        },
+        {
+            "src": "assets/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image\/png"
+        },
+        {
+            "src": "assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image\/png"
+        }
+    ]
+}
