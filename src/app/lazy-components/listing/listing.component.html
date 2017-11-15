@@ -1,8 +1,0 @@
-<section class="container">
-    <div class="has-padding" *ngFor="let key of keys">
-        <div class="has-padding inner-wrapper">
-            <p [innerHTML]="posts[key]?.content"></p>
-            <p>by <b>{{posts[key]?.name}}</b> | <span [innerHTML]="posts[key]?.posted | date: 'short'"></span></p>
-        </div>
-    </div>
-</section>
