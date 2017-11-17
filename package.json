@@ -11,7 +11,9 @@
     "e2e": "protractor ./protractor.conf.js",
     "build-index": "tsc -p server\\tsconfig.json",
     "pree2e": "webdriver-manager update --standalone false --gecko false --quiet",
-    "build-sw": "ng build --prod && workbox generate:sw"
+    "build-sw": "ng build --prod && workbox generate:sw",
+    "buildd": "ng build --prod && workbox inject:manifest",
+    "runn": "cd dist && lite-server"
   },
   "private": true,
   "dependencies": {
